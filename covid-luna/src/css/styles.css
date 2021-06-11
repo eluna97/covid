@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+canvas {
+  margin: auto;
+}
+
+#content {
+  padding: 20px;
+}
+
+#alerts {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#alerts .alert {
+  margin: 10px;
+}
+#dashboard {
+  display: flex;
+  flex-direction: column;
+}
+
+#dashboard .card {
+  margin-bottom: 10px;
+}
+
+#map {
+  width: 100%;
+  height: 500px;
+}
